@@ -1,0 +1,375 @@
+@import "vars";
+@import "reset";
+
+html
+{
+    font-size: 14px;
+}
+
+body
+{
+    width: 100vw;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    
+    .hidden
+    {
+        display: none;
+    }
+    
+    & > header
+    {
+        height: 10vh;
+        width: 100vw;
+        background-color: #074b6b;
+        box-shadow: 2px 2px 5px rgb(0 0 0 / 40%);
+        
+        nav
+        {
+            display: grid;
+            grid-template-columns: 0.1fr 1fr;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            
+            figure
+            {
+                align-self: center;
+                
+                img
+                {
+                    width: 7vw;
+                    height: 7vh;
+                    margin-left: -1vw;
+        
+                }
+            }
+            
+            ul
+            {
+                align-self: center;
+                
+                li
+                {
+                    display: inline-block;
+                    padding-left: 9vw;
+                    font-size: 1.2em;
+                    
+                    a
+                    {
+                        text-decoration: none;
+                        color: white;
+                    }
+                
+                }
+            }
+        }
+    }
+    
+    & > main
+    {
+        width: 100vw;
+        
+        
+        & > section:first-of-type
+        {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            height: 50vh;
+            width: 100vw;
+            
+            section
+            {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                
+                h1
+                {
+                    color: red;
+                    font-size: 4.5em;
+                    margin-left: 10vw;
+                    margin-bottom: 4vh;
+                    
+                }
+                
+                h2
+                {
+                    color: black;
+                    font-size: 2.5em;
+                    margin-left: 10vw;
+                    
+                    span
+                    {
+                        color: red;
+                    }
+                }
+            }
+            
+            & > figure
+            {
+                background-color: #1c2f42;
+                display: flex;
+                align-items: center;
+                
+                img
+                {
+                    width: 24vw;
+                    height: 38vh;
+                    margin-left: 13vw;
+                }
+            }
+        }
+        
+        & > section:last-of-type
+        {
+            width: 100vw;
+            height: 100vh;
+            background-color: #bb232e;
+            
+            & > header
+            {
+                width: 100vw;
+                height: 15vh;
+                display: grid;
+                margin-bottom: 6vh;
+            
+                h3
+                {
+                    text-align: center;
+                    color: white;
+                    font-size: 2.5em;
+                    align-self: end;
+                }
+            }
+            
+            & > section
+            {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-column-gap: 1vw;
+                margin-right: 15vw;
+                margin-left: 15vw;
+                
+            
+                article:first-of-type
+                {
+                    background-color: white;
+                    border-radius: 5px;
+                    box-shadow: 3px 3px 6px rgb(0 0 0 / 20%);
+                    
+                    header
+                    {
+                        margin: 2em 1em 3em 1em;
+                        
+                        figure
+                        {
+                            img
+                            {
+                                width: 100%;
+                                height: 100%;
+                                
+                            }
+                        }
+                        
+                        h4
+                        {
+                            font-size: 1.8em;
+                            color: black;
+                            margin-top: 2.5vh;
+                        }
+                    }
+                    
+                    section
+                    {
+                        margin: 2em 1em 3em 1em;
+                        
+                        h5
+                        {
+                            margin-bottom: 2vh;
+                            font-size: 1.4em;
+                        }
+                        
+                        p
+                        {
+                            font-size: 1em;
+                        }
+                    }
+                    
+                    footer
+                    {
+                        margin-bottom: 3em;
+                        margin-left: 1em;
+                        
+                        h5
+                        {
+                            color: #bb232e;
+                            font-size: 1em;
+                            font-weight: bold;
+                        }
+                    }
+                }
+                
+                article:nth-of-type(2)
+                {
+                    background-color: white;
+                    border-radius: 5px;
+                    box-shadow: 3px 3px 6px rgb(0 0 0 / 20%);
+                    
+                    header
+                    {
+                        margin: 2em 1em 3em 1em;
+                        
+                        figure
+                        {
+                            img
+                            {
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
+                        
+                        h4
+                        {
+                            font-size: 1.8em;
+                            color: black;
+                            margin-top: 2.5vh;
+                        }
+                    }
+                    
+                    section
+                    {
+                        margin: 2em 1em 3em 1em;
+                        
+                        h5
+                        {
+                            margin-bottom: 2vh;
+                            font-size: 1.4em;
+                        }
+                        
+                        p
+                        {
+                            font-size: 1em;
+                        }
+                    }
+                    
+                    footer
+                    {
+                        margin-bottom: 3em;
+                        margin-left: 1em;
+                        
+                        h5
+                        {
+                            color: #bb232e;
+                            font-size: 1em;
+                            font-weight: bold;
+                        }
+                    }
+                }
+                
+                article:last-of-type
+                {
+                    background-color: white;
+                    border-radius: 5px;
+                    box-shadow: 3px 3px 6px rgb(0 0 0 / 20%);
+                    
+                    header
+                    {
+                        margin: 2em 1em 3em 1em;
+                        
+                        figure
+                        {
+                            img
+                            {
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
+                        
+                        h4
+                        {
+                            font-size: 1.8em;
+                            color: black;
+                            margin-top: 2.5vh;
+                        }
+                    }
+                    
+                    section
+                    {
+                        margin: 2em 1em 3em 1em;
+                        
+                        h5
+                        {
+                            margin-bottom: 2vh;
+                            font-size: 1.4em;
+                        }
+                        
+                        p
+                        {
+                            font-size: 1em;
+                            
+                        }
+                    }
+                    
+                    footer
+                    {
+                        margin-bottom: 3em;
+                        margin-left: 1em;
+                        
+                        h5
+                        {
+                            color: #bb232e;
+                            font-size: 1em;
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    & > footer
+    {
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        background-color: #1c2f42;
+        
+        h6
+        {
+            font-size: 1em;
+            color: white;
+            justify-self: center;
+            align-self: center;
+        }
+        
+        figure
+        {
+            justify-self: center;
+            align-self: center;
+            
+            img
+            {
+                width: 7vw;
+                height: 7vh;
+            }
+        }
+        
+        h7
+        {
+            font-size: 1em;
+            color: white;
+            justify-self: center;
+            align-self: center;
+            
+            span
+            {
+                text-decoration: underline;
+                text-underline-offset: 0.5rem;
+            }
+        }
+    
+    }
+}

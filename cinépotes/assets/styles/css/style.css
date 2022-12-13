@@ -1,0 +1,303 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
+body .hidden {
+  display: none;
+}
+body > header {
+  height: 10vh;
+  width: 100vw;
+  background-color: #074b6b;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+body > header nav {
+  display: grid;
+  grid-template-columns: 0.1fr 1fr;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+body > header nav figure {
+  align-self: center;
+}
+body > header nav figure img {
+  width: 7vw;
+  height: 7vh;
+  margin-left: -1vw;
+}
+body > header nav ul {
+  align-self: center;
+}
+body > header nav ul li {
+  display: inline-block;
+  padding-left: 9vw;
+  font-size: 1.2em;
+}
+body > header nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+body > main {
+  width: 100vw;
+}
+body > main > section:first-of-type {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 50vh;
+  width: 100vw;
+}
+body > main > section:first-of-type section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+body > main > section:first-of-type section h1 {
+  color: red;
+  font-size: 4.5em;
+  margin-left: 10vw;
+  margin-bottom: 4vh;
+}
+body > main > section:first-of-type section h2 {
+  color: black;
+  font-size: 2.5em;
+  margin-left: 10vw;
+}
+body > main > section:first-of-type section h2 span {
+  color: red;
+}
+body > main > section:first-of-type > figure {
+  background-color: #1c2f42;
+  display: flex;
+  align-items: center;
+}
+body > main > section:first-of-type > figure img {
+  width: 24vw;
+  height: 38vh;
+  margin-left: 13vw;
+}
+body > main > section:last-of-type {
+  width: 100vw;
+  height: 100vh;
+  background-color: #bb232e;
+}
+body > main > section:last-of-type > header {
+  width: 100vw;
+  height: 15vh;
+  display: grid;
+  margin-bottom: 6vh;
+}
+body > main > section:last-of-type > header h3 {
+  text-align: center;
+  color: white;
+  font-size: 2.5em;
+  align-self: end;
+}
+body > main > section:last-of-type > section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 1vw;
+  margin-right: 15vw;
+  margin-left: 15vw;
+}
+body > main > section:last-of-type > section article:first-of-type {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+}
+body > main > section:last-of-type > section article:first-of-type header {
+  margin: 2em 1em 3em 1em;
+}
+body > main > section:last-of-type > section article:first-of-type header figure img {
+  width: 100%;
+  height: 100%;
+}
+body > main > section:last-of-type > section article:first-of-type header h4 {
+  font-size: 1.8em;
+  color: black;
+  margin-top: 2.5vh;
+}
+body > main > section:last-of-type > section article:first-of-type section {
+  margin: 2em 1em 3em 1em;
+}
+body > main > section:last-of-type > section article:first-of-type section h5 {
+  margin-bottom: 2vh;
+  font-size: 1.4em;
+}
+body > main > section:last-of-type > section article:first-of-type section p {
+  font-size: 1em;
+}
+body > main > section:last-of-type > section article:first-of-type footer {
+  margin-bottom: 3em;
+  margin-left: 1em;
+}
+body > main > section:last-of-type > section article:first-of-type footer h5 {
+  color: #bb232e;
+  font-size: 1em;
+  font-weight: bold;
+}
+body > main > section:last-of-type > section article:nth-of-type(2) {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+}
+body > main > section:last-of-type > section article:nth-of-type(2) header {
+  margin: 2em 1em 3em 1em;
+}
+body > main > section:last-of-type > section article:nth-of-type(2) header figure img {
+  width: 100%;
+  height: 100%;
+}
+body > main > section:last-of-type > section article:nth-of-type(2) header h4 {
+  font-size: 1.8em;
+  color: black;
+  margin-top: 2.5vh;
+}
+body > main > section:last-of-type > section article:nth-of-type(2) section {
+  margin: 2em 1em 3em 1em;
+}
+body > main > section:last-of-type > section article:nth-of-type(2) section h5 {
+  margin-bottom: 2vh;
+  font-size: 1.4em;
+}
+body > main > section:last-of-type > section article:nth-of-type(2) section p {
+  font-size: 1em;
+}
+body > main > section:last-of-type > section article:nth-of-type(2) footer {
+  margin-bottom: 3em;
+  margin-left: 1em;
+}
+body > main > section:last-of-type > section article:nth-of-type(2) footer h5 {
+  color: #bb232e;
+  font-size: 1em;
+  font-weight: bold;
+}
+body > main > section:last-of-type > section article:last-of-type {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+}
+body > main > section:last-of-type > section article:last-of-type header {
+  margin: 2em 1em 3em 1em;
+}
+body > main > section:last-of-type > section article:last-of-type header figure img {
+  width: 100%;
+  height: 100%;
+}
+body > main > section:last-of-type > section article:last-of-type header h4 {
+  font-size: 1.8em;
+  color: black;
+  margin-top: 2.5vh;
+}
+body > main > section:last-of-type > section article:last-of-type section {
+  margin: 2em 1em 3em 1em;
+}
+body > main > section:last-of-type > section article:last-of-type section h5 {
+  margin-bottom: 2vh;
+  font-size: 1.4em;
+}
+body > main > section:last-of-type > section article:last-of-type section p {
+  font-size: 1em;
+}
+body > main > section:last-of-type > section article:last-of-type footer {
+  margin-bottom: 3em;
+  margin-left: 1em;
+}
+body > main > section:last-of-type > section article:last-of-type footer h5 {
+  color: #bb232e;
+  font-size: 1em;
+  font-weight: bold;
+}
+body > footer {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  background-color: #1c2f42;
+}
+body > footer h6 {
+  font-size: 1em;
+  color: white;
+  justify-self: center;
+  align-self: center;
+}
+body > footer figure {
+  justify-self: center;
+  align-self: center;
+}
+body > footer figure img {
+  width: 7vw;
+  height: 7vh;
+}
+body > footer h7 {
+  font-size: 1em;
+  color: white;
+  justify-self: center;
+  align-self: center;
+}
+body > footer h7 span {
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+}
+
+/*# sourceMappingURL=style.css.map */
