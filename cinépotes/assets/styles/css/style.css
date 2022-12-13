@@ -56,7 +56,7 @@ html {
   font-size: 14px;
 }
 
-body {
+#home-page {
   width: 100vw;
   min-height: 100vh;
   margin: 0;
@@ -64,238 +64,811 @@ body {
   font-family: "Montserrat", sans-serif;
   overflow-x: hidden;
 }
-body .hidden {
+#home-page .hidden {
   display: none;
 }
-body > header {
+#home-page > header {
   height: 10vh;
   width: 100vw;
   background-color: #074b6b;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
 }
-body > header nav {
+#home-page > header nav {
   display: grid;
   grid-template-columns: 0.1fr 1fr;
   margin: 0;
   padding: 0;
   height: 100%;
 }
-body > header nav figure {
+#home-page > header nav figure {
   align-self: center;
 }
-body > header nav figure img {
+#home-page > header nav figure img {
   width: 7vw;
   height: 7vh;
   margin-left: -1vw;
 }
-body > header nav ul {
+#home-page > header nav ul {
   align-self: center;
 }
-body > header nav ul li {
+#home-page > header nav ul li {
   display: inline-block;
   padding-left: 9vw;
   font-size: 1.2em;
 }
-body > header nav ul li a {
+#home-page > header nav ul li a {
   text-decoration: none;
   color: white;
+  padding-bottom: 1.8vh;
 }
-body > main {
+#home-page > header nav ul li a:hover {
+  border-bottom: 3px solid #bb232e;
+  border-bottom-offset: 1em;
+}
+#home-page > main {
   width: 100vw;
 }
-body > main > section:first-of-type {
+#home-page > main > section:first-of-type {
   display: grid;
   grid-template-columns: 1fr 1fr;
   height: 50vh;
   width: 100vw;
 }
-body > main > section:first-of-type section {
+#home-page > main > section:first-of-type section {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-body > main > section:first-of-type section h1 {
+#home-page > main > section:first-of-type section h1 {
   color: red;
   font-size: 4.5em;
   margin-left: 10vw;
   margin-bottom: 4vh;
 }
-body > main > section:first-of-type section h2 {
+#home-page > main > section:first-of-type section h2 {
   color: black;
   font-size: 2.5em;
   margin-left: 10vw;
 }
-body > main > section:first-of-type section h2 span {
+#home-page > main > section:first-of-type section h2 span {
   color: red;
 }
-body > main > section:first-of-type > figure {
+#home-page > main > section:first-of-type > figure {
   background-color: #1c2f42;
   display: flex;
   align-items: center;
 }
-body > main > section:first-of-type > figure img {
+#home-page > main > section:first-of-type > figure img {
   width: 24vw;
   height: 38vh;
   margin-left: 13vw;
 }
-body > main > section:last-of-type {
+#home-page > main > section:last-of-type {
   width: 100vw;
   height: 100vh;
   background-color: #bb232e;
 }
-body > main > section:last-of-type > header {
+#home-page > main > section:last-of-type > header {
   width: 100vw;
   height: 15vh;
   display: grid;
   margin-bottom: 6vh;
 }
-body > main > section:last-of-type > header h3 {
+#home-page > main > section:last-of-type > header h3 {
   text-align: center;
   color: white;
   font-size: 2.5em;
   align-self: end;
 }
-body > main > section:last-of-type > section {
+#home-page > main > section:last-of-type > section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 1vw;
   margin-right: 15vw;
   margin-left: 15vw;
 }
-body > main > section:last-of-type > section article:first-of-type {
+#home-page > main > section:last-of-type > section article:first-of-type {
   background-color: white;
   border-radius: 5px;
   box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
 }
-body > main > section:last-of-type > section article:first-of-type header {
+#home-page > main > section:last-of-type > section article:first-of-type header {
   margin: 2em 1em 3em 1em;
 }
-body > main > section:last-of-type > section article:first-of-type header figure img {
+#home-page > main > section:last-of-type > section article:first-of-type header figure img {
   width: 100%;
   height: 100%;
 }
-body > main > section:last-of-type > section article:first-of-type header h4 {
+#home-page > main > section:last-of-type > section article:first-of-type header h4 {
   font-size: 1.8em;
   color: black;
   margin-top: 2.5vh;
 }
-body > main > section:last-of-type > section article:first-of-type section {
+#home-page > main > section:last-of-type > section article:first-of-type section {
   margin: 2em 1em 3em 1em;
 }
-body > main > section:last-of-type > section article:first-of-type section h5 {
+#home-page > main > section:last-of-type > section article:first-of-type section h5 {
   margin-bottom: 2vh;
   font-size: 1.4em;
 }
-body > main > section:last-of-type > section article:first-of-type section p {
+#home-page > main > section:last-of-type > section article:first-of-type section p {
   font-size: 1em;
 }
-body > main > section:last-of-type > section article:first-of-type footer {
+#home-page > main > section:last-of-type > section article:first-of-type footer {
   margin-bottom: 3em;
   margin-left: 1em;
 }
-body > main > section:last-of-type > section article:first-of-type footer h5 {
-  color: #bb232e;
+#home-page > main > section:last-of-type > section article:first-of-type footer h5 {
   font-size: 1em;
   font-weight: bold;
 }
-body > main > section:last-of-type > section article:nth-of-type(2) {
+#home-page > main > section:last-of-type > section article:first-of-type footer h5 a {
+  border-bottom: 3px solid #bb232e;
+  text-decoration: none;
+  color: #bb232e;
+}
+#home-page > main > section:last-of-type > section article:nth-of-type(2) {
   background-color: white;
   border-radius: 5px;
   box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
 }
-body > main > section:last-of-type > section article:nth-of-type(2) header {
+#home-page > main > section:last-of-type > section article:nth-of-type(2) header {
   margin: 2em 1em 3em 1em;
 }
-body > main > section:last-of-type > section article:nth-of-type(2) header figure img {
+#home-page > main > section:last-of-type > section article:nth-of-type(2) header figure img {
   width: 100%;
   height: 100%;
 }
-body > main > section:last-of-type > section article:nth-of-type(2) header h4 {
+#home-page > main > section:last-of-type > section article:nth-of-type(2) header h4 {
   font-size: 1.8em;
   color: black;
   margin-top: 2.5vh;
 }
-body > main > section:last-of-type > section article:nth-of-type(2) section {
+#home-page > main > section:last-of-type > section article:nth-of-type(2) section {
   margin: 2em 1em 3em 1em;
 }
-body > main > section:last-of-type > section article:nth-of-type(2) section h5 {
+#home-page > main > section:last-of-type > section article:nth-of-type(2) section h5 {
   margin-bottom: 2vh;
   font-size: 1.4em;
 }
-body > main > section:last-of-type > section article:nth-of-type(2) section p {
+#home-page > main > section:last-of-type > section article:nth-of-type(2) section p {
   font-size: 1em;
 }
-body > main > section:last-of-type > section article:nth-of-type(2) footer {
+#home-page > main > section:last-of-type > section article:nth-of-type(2) footer {
   margin-bottom: 3em;
   margin-left: 1em;
 }
-body > main > section:last-of-type > section article:nth-of-type(2) footer h5 {
-  color: #bb232e;
+#home-page > main > section:last-of-type > section article:nth-of-type(2) footer h5 {
   font-size: 1em;
   font-weight: bold;
 }
-body > main > section:last-of-type > section article:last-of-type {
+#home-page > main > section:last-of-type > section article:nth-of-type(2) footer h5 a {
+  border-bottom: 3px solid #bb232e;
+  text-decoration: none;
+  color: #bb232e;
+}
+#home-page > main > section:last-of-type > section article:last-of-type {
   background-color: white;
   border-radius: 5px;
   box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
 }
-body > main > section:last-of-type > section article:last-of-type header {
+#home-page > main > section:last-of-type > section article:last-of-type header {
   margin: 2em 1em 3em 1em;
 }
-body > main > section:last-of-type > section article:last-of-type header figure img {
+#home-page > main > section:last-of-type > section article:last-of-type header figure img {
   width: 100%;
   height: 100%;
 }
-body > main > section:last-of-type > section article:last-of-type header h4 {
+#home-page > main > section:last-of-type > section article:last-of-type header h4 {
   font-size: 1.8em;
   color: black;
   margin-top: 2.5vh;
 }
-body > main > section:last-of-type > section article:last-of-type section {
+#home-page > main > section:last-of-type > section article:last-of-type section {
   margin: 2em 1em 3em 1em;
 }
-body > main > section:last-of-type > section article:last-of-type section h5 {
+#home-page > main > section:last-of-type > section article:last-of-type section h5 {
   margin-bottom: 2vh;
   font-size: 1.4em;
 }
-body > main > section:last-of-type > section article:last-of-type section p {
+#home-page > main > section:last-of-type > section article:last-of-type section p {
   font-size: 1em;
 }
-body > main > section:last-of-type > section article:last-of-type footer {
+#home-page > main > section:last-of-type > section article:last-of-type footer {
   margin-bottom: 3em;
   margin-left: 1em;
 }
-body > main > section:last-of-type > section article:last-of-type footer h5 {
-  color: #bb232e;
+#home-page > main > section:last-of-type > section article:last-of-type footer h5 {
   font-size: 1em;
   font-weight: bold;
 }
-body > footer {
+#home-page > main > section:last-of-type > section article:last-of-type footer h5 a {
+  border-bottom: 3px solid #bb232e;
+  text-decoration: none;
+  color: #bb232e;
+}
+#home-page > footer {
   display: grid;
   grid-template-rows: repeat(3, 1fr);
   background-color: #1c2f42;
 }
-body > footer h6 {
+#home-page > footer h6 {
   font-size: 1em;
   color: white;
   justify-self: center;
   align-self: center;
 }
-body > footer figure {
+#home-page > footer figure {
   justify-self: center;
   align-self: center;
 }
-body > footer figure img {
+#home-page > footer figure img {
   width: 7vw;
   height: 7vh;
 }
-body > footer h7 {
+#home-page > footer h7 {
   font-size: 1em;
   color: white;
   justify-self: center;
   align-self: center;
 }
-body > footer h7 span {
+#home-page > footer h7 span {
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+}
+
+#critiques-page {
+  width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
+#critiques-page .hidden {
+  display: none;
+}
+#critiques-page > header {
+  height: 10vh;
+  width: 100vw;
+  background-color: #074b6b;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+#critiques-page > header nav {
+  display: grid;
+  grid-template-columns: 0.1fr 1fr;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+#critiques-page > header nav figure {
+  align-self: center;
+}
+#critiques-page > header nav figure img {
+  width: 7vw;
+  height: 7vh;
+  margin-left: -1vw;
+}
+#critiques-page > header nav ul {
+  align-self: center;
+}
+#critiques-page > header nav ul li {
+  display: inline-block;
+  padding-left: 9vw;
+  font-size: 1.2em;
+}
+#critiques-page > header nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding-bottom: 1.8vh;
+}
+#critiques-page > header nav ul li a:hover {
+  border-bottom: 3px solid #bb232e;
+  border-bottom-offset: 1em;
+}
+#critiques-page > main {
+  width: 100vw;
+}
+#critiques-page > main > section:first-of-type {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+}
+#critiques-page > main > section:first-of-type > header {
+  width: 100vw;
+  height: 15vh;
+  display: grid;
+  background-color: #bb232e;
+  margin-top: 4vh;
+}
+#critiques-page > main > section:first-of-type > header h3 {
+  text-align: center;
+  color: white;
+  font-size: 4em;
+  font-weight: bold;
+  align-self: center;
+  text-transform: uppercase;
+}
+#critiques-page > main > section:first-of-type > section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 1vw;
+  margin-right: 15vw;
+  margin-left: 15vw;
+}
+#critiques-page > main > section:first-of-type > section article:first-of-type {
+  background-color: white;
+}
+#critiques-page > main > section:first-of-type > section article:first-of-type header {
+  margin: 2em 1em 0 1em;
+}
+#critiques-page > main > section:first-of-type > section article:first-of-type header figure img {
+  width: 100%;
+  height: 100%;
+}
+#critiques-page > main > section:first-of-type > section article:first-of-type header h4 {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: black;
+  margin-top: 1.5vh;
+}
+#critiques-page > main > section:first-of-type > section article:first-of-type section {
+  margin: 1em 1em 0 1em;
+}
+#critiques-page > main > section:first-of-type > section article:first-of-type section h5 {
+  margin-bottom: 2vh;
+  font-size: 1em;
+}
+#critiques-page > main > section:first-of-type > section article:first-of-type footer {
+  margin-bottom: 3em;
+  margin-left: 1em;
+}
+#critiques-page > main > section:first-of-type > section article:first-of-type footer h5 {
+  font-size: 1em;
+  font-weight: bold;
+}
+#critiques-page > main > section:first-of-type > section article:first-of-type footer h5 a {
+  border-bottom: 3px solid #bb232e;
+  text-decoration: none;
+  color: #bb232e;
+}
+#critiques-page > main > section:first-of-type > section article:nth-of-type(2) {
+  background-color: white;
+}
+#critiques-page > main > section:first-of-type > section article:nth-of-type(2) header {
+  margin: 2em 1em 0 1em;
+}
+#critiques-page > main > section:first-of-type > section article:nth-of-type(2) header figure img {
+  width: 100%;
+  height: 100%;
+}
+#critiques-page > main > section:first-of-type > section article:nth-of-type(2) header h4 {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: black;
+  margin-top: 1.5vh;
+}
+#critiques-page > main > section:first-of-type > section article:nth-of-type(2) section {
+  margin: 1em 1em 0 1em;
+}
+#critiques-page > main > section:first-of-type > section article:nth-of-type(2) section h5 {
+  margin-bottom: 2vh;
+  font-size: 1em;
+}
+#critiques-page > main > section:first-of-type > section article:nth-of-type(2) footer {
+  margin-bottom: 3em;
+  margin-left: 1em;
+}
+#critiques-page > main > section:first-of-type > section article:nth-of-type(2) footer h5 {
+  font-size: 1em;
+  font-weight: bold;
+}
+#critiques-page > main > section:first-of-type > section article:nth-of-type(2) footer h5 a {
+  border-bottom: 3px solid #bb232e;
+  text-decoration: none;
+  color: #bb232e;
+}
+#critiques-page > main > section:first-of-type > section article:nth-of-type(3) {
+  background-color: white;
+}
+#critiques-page > main > section:first-of-type > section article:nth-of-type(3) header {
+  margin: 2em 1em 0 1em;
+}
+#critiques-page > main > section:first-of-type > section article:nth-of-type(3) header figure img {
+  width: 100%;
+  height: 100%;
+}
+#critiques-page > main > section:first-of-type > section article:nth-of-type(3) header h4 {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: black;
+  margin-top: 1.5vh;
+}
+#critiques-page > main > section:first-of-type > section article:nth-of-type(3) section {
+  margin: 1em 1em 0 1em;
+}
+#critiques-page > main > section:first-of-type > section article:nth-of-type(3) section h5 {
+  margin-bottom: 2vh;
+  font-size: 1em;
+}
+#critiques-page > main > section:first-of-type > section article:nth-of-type(3) footer {
+  margin-bottom: 3em;
+  margin-left: 1em;
+}
+#critiques-page > main > section:first-of-type > section article:nth-of-type(3) footer h5 {
+  font-size: 1em;
+  font-weight: bold;
+}
+#critiques-page > main > section:first-of-type > section article:nth-of-type(3) footer h5 a {
+  border-bottom: 3px solid #bb232e;
+  text-decoration: none;
+  color: #bb232e;
+}
+#critiques-page > main > section:first-of-type > section article:nth-of-type(4) {
+  background-color: white;
+}
+#critiques-page > main > section:first-of-type > section article:nth-of-type(4) header {
+  margin: 2em 1em 0 1em;
+}
+#critiques-page > main > section:first-of-type > section article:nth-of-type(4) header figure img {
+  width: 100%;
+  height: 100%;
+}
+#critiques-page > main > section:first-of-type > section article:nth-of-type(4) header h4 {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: black;
+  margin-top: 1.5vh;
+}
+#critiques-page > main > section:first-of-type > section article:nth-of-type(4) section {
+  margin: 1em 1em 0 1em;
+}
+#critiques-page > main > section:first-of-type > section article:nth-of-type(4) section h5 {
+  margin-bottom: 2vh;
+  font-size: 1em;
+}
+#critiques-page > main > section:first-of-type > section article:nth-of-type(4) footer {
+  margin-bottom: 3em;
+  margin-left: 1em;
+}
+#critiques-page > main > section:first-of-type > section article:nth-of-type(4) footer h5 {
+  font-size: 1em;
+  font-weight: bold;
+}
+#critiques-page > main > section:first-of-type > section article:nth-of-type(4) footer h5 a {
+  border-bottom: 3px solid #bb232e;
+  text-decoration: none;
+  color: #bb232e;
+}
+#critiques-page > main > section:first-of-type > section article:nth-of-type(5) {
+  background-color: white;
+}
+#critiques-page > main > section:first-of-type > section article:nth-of-type(5) header {
+  margin: 2em 1em 0 1em;
+}
+#critiques-page > main > section:first-of-type > section article:nth-of-type(5) header figure img {
+  width: 100%;
+  height: 100%;
+}
+#critiques-page > main > section:first-of-type > section article:nth-of-type(5) header h4 {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: black;
+  margin-top: 1.5vh;
+}
+#critiques-page > main > section:first-of-type > section article:nth-of-type(5) section {
+  margin: 1em 1em 0 1em;
+}
+#critiques-page > main > section:first-of-type > section article:nth-of-type(5) section h5 {
+  margin-bottom: 2vh;
+  font-size: 1em;
+}
+#critiques-page > main > section:first-of-type > section article:nth-of-type(5) footer {
+  margin-bottom: 3em;
+  margin-left: 1em;
+}
+#critiques-page > main > section:first-of-type > section article:nth-of-type(5) footer h5 {
+  font-size: 1em;
+  font-weight: bold;
+}
+#critiques-page > main > section:first-of-type > section article:nth-of-type(5) footer h5 a {
+  border-bottom: 3px solid #bb232e;
+  text-decoration: none;
+  color: #bb232e;
+}
+#critiques-page > main > section:first-of-type > section article:last-of-type {
+  background-color: white;
+}
+#critiques-page > main > section:first-of-type > section article:last-of-type header {
+  margin: 2em 1em 0 1em;
+}
+#critiques-page > main > section:first-of-type > section article:last-of-type header figure img {
+  width: 100%;
+  height: 100%;
+}
+#critiques-page > main > section:first-of-type > section article:last-of-type header h4 {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: black;
+  margin-top: 1.5vh;
+}
+#critiques-page > main > section:first-of-type > section article:last-of-type section {
+  margin: 1em 1em 0 1em;
+}
+#critiques-page > main > section:first-of-type > section article:last-of-type section h5 {
+  margin-bottom: 2vh;
+  font-size: 1em;
+}
+#critiques-page > main > section:first-of-type > section article:last-of-type footer {
+  margin-bottom: 3em;
+  margin-left: 1em;
+}
+#critiques-page > main > section:first-of-type > section article:last-of-type footer h5 {
+  font-size: 1em;
+  font-weight: bold;
+}
+#critiques-page > main > section:first-of-type > section article:last-of-type footer h5 a {
+  border-bottom: 3px solid #bb232e;
+  text-decoration: none;
+  color: #bb232e;
+}
+#critiques-page > footer {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  background-color: #1c2f42;
+}
+#critiques-page > footer h6 {
+  font-size: 1em;
+  color: white;
+  justify-self: center;
+  align-self: center;
+}
+#critiques-page > footer figure {
+  justify-self: center;
+  align-self: center;
+}
+#critiques-page > footer figure img {
+  width: 7vw;
+  height: 7vh;
+}
+#critiques-page > footer h7 {
+  font-size: 1em;
+  color: white;
+  justify-self: center;
+  align-self: center;
+}
+#critiques-page > footer h7 span {
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+}
+
+#equipe-page {
+  width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+  background-image: url(https://res03.sites.3wa.io/assets/files/inte/j13/cinepotes/assets/img/friends.png);
+}
+#equipe-page .hidden {
+  display: none;
+}
+#equipe-page > header {
+  height: 10vh;
+  width: 100vw;
+  background-color: #074b6b;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+#equipe-page > header nav {
+  display: grid;
+  grid-template-columns: 0.1fr 1fr;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+#equipe-page > header nav figure {
+  align-self: center;
+}
+#equipe-page > header nav figure img {
+  width: 7vw;
+  height: 7vh;
+  margin-left: -1vw;
+}
+#equipe-page > header nav ul {
+  align-self: center;
+}
+#equipe-page > header nav ul li {
+  display: inline-block;
+  padding-left: 9vw;
+  font-size: 1.2em;
+}
+#equipe-page > header nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding-bottom: 1.8vh;
+}
+#equipe-page > header nav ul li a:hover {
+  border-bottom: 3px solid #bb232e;
+  border-bottom-offset: 1em;
+}
+#equipe-page > main {
+  width: 100vw;
+}
+#equipe-page > main > section:first-of-type {
+  width: 100vw;
+  height: 100vh;
+}
+#equipe-page > main > section:first-of-type > header {
+  width: 100vw;
+  height: 10vh;
+  display: grid;
+  background-color: #bb232e;
+  margin-top: 6vh;
+}
+#equipe-page > main > section:first-of-type > header h3 {
+  text-align: center;
+  color: white;
+  font-size: 4em;
+  font-weight: bold;
+  align-self: center;
+  text-transform: uppercase;
+}
+#equipe-page > main > section:first-of-type > section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 4vw;
+  margin-right: 15vw;
+  margin-left: 15vw;
+  margin-top: 7vh;
+}
+#equipe-page > main > section:first-of-type > section article:first-of-type {
+  background-color: white;
+  border-radius: 0 0 15px 15px;
+}
+#equipe-page > main > section:first-of-type > section article:first-of-type header {
+  margin: 0;
+}
+#equipe-page > main > section:first-of-type > section article:first-of-type header figure {
+  margin: 0;
+  padding: 0;
+}
+#equipe-page > main > section:first-of-type > section article:first-of-type header figure img {
+  width: 100%;
+  height: 100%;
+}
+#equipe-page > main > section:first-of-type > section article:first-of-type header h4 {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #186e57;
+  margin-top: 1.5vh;
+  text-align: center;
+}
+#equipe-page > main > section:first-of-type > section article:first-of-type section {
+  margin: 1em 1em 0 1em;
+}
+#equipe-page > main > section:first-of-type > section article:first-of-type section h5 {
+  margin-bottom: 2vh;
+  font-size: 1em;
+  color: #186e57;
+  text-align: center;
+}
+#equipe-page > main > section:first-of-type > section article:first-of-type footer {
+  margin-bottom: 1.5em;
+  margin-left: 1em;
+}
+#equipe-page > main > section:first-of-type > section article:first-of-type footer h5 {
+  font-size: 1em;
+  color: #186e57;
+  text-align: center;
+}
+#equipe-page > main > section:first-of-type > section article:nth-of-type(2) {
+  background-color: white;
+  border-radius: 0 0 15px 15px;
+}
+#equipe-page > main > section:first-of-type > section article:nth-of-type(2) header {
+  margin: 0;
+}
+#equipe-page > main > section:first-of-type > section article:nth-of-type(2) header figure {
+  margin: 0;
+  padding: 0;
+}
+#equipe-page > main > section:first-of-type > section article:nth-of-type(2) header figure img {
+  width: 100%;
+  height: 100%;
+}
+#equipe-page > main > section:first-of-type > section article:nth-of-type(2) header h4 {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #6e24b7;
+  margin-top: 1.5vh;
+  text-align: center;
+}
+#equipe-page > main > section:first-of-type > section article:nth-of-type(2) section {
+  margin: 1em 1em 0 1em;
+}
+#equipe-page > main > section:first-of-type > section article:nth-of-type(2) section h5 {
+  margin-bottom: 2vh;
+  font-size: 1em;
+  color: #6e24b7;
+  text-align: center;
+}
+#equipe-page > main > section:first-of-type > section article:nth-of-type(2) footer {
+  margin-bottom: 1.5em;
+  margin-left: 1em;
+}
+#equipe-page > main > section:first-of-type > section article:nth-of-type(2) footer h5 {
+  font-size: 1em;
+  color: #6e24b7;
+  text-align: center;
+}
+#equipe-page > main > section:first-of-type > section article:last-of-type {
+  background-color: white;
+  border-radius: 0 0 15px 15px;
+}
+#equipe-page > main > section:first-of-type > section article:last-of-type header {
+  margin: 0;
+}
+#equipe-page > main > section:first-of-type > section article:last-of-type header figure {
+  margin: 0;
+  padding: 0;
+}
+#equipe-page > main > section:first-of-type > section article:last-of-type header figure img {
+  width: 100%;
+  height: 100%;
+}
+#equipe-page > main > section:first-of-type > section article:last-of-type header h4 {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #074b6b;
+  margin-top: 1.5vh;
+  text-align: center;
+}
+#equipe-page > main > section:first-of-type > section article:last-of-type section {
+  margin: 1em 1em 0 1em;
+}
+#equipe-page > main > section:first-of-type > section article:last-of-type section h5 {
+  margin-bottom: 2vh;
+  font-size: 1em;
+  color: #074b6b;
+  text-align: center;
+}
+#equipe-page > main > section:first-of-type > section article:last-of-type footer {
+  margin-bottom: 1.5em;
+  margin-left: 1em;
+}
+#equipe-page > main > section:first-of-type > section article:last-of-type footer h5 {
+  font-size: 1em;
+  color: #074b6b;
+  text-align: center;
+}
+#equipe-page > footer {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  background-color: #1c2f42;
+}
+#equipe-page > footer h6 {
+  font-size: 1em;
+  color: white;
+  justify-self: center;
+  align-self: center;
+}
+#equipe-page > footer figure {
+  justify-self: center;
+  align-self: center;
+}
+#equipe-page > footer figure img {
+  width: 7vw;
+  height: 7vh;
+}
+#equipe-page > footer h7 {
+  font-size: 1em;
+  color: white;
+  justify-self: center;
+  align-self: center;
+}
+#equipe-page > footer h7 span {
   text-decoration: underline;
   text-underline-offset: 0.5rem;
 }
