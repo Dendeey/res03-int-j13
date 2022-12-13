@@ -120,7 +120,7 @@ html {
   justify-content: center;
 }
 #home-page > main > section:first-of-type section h1 {
-  color: red;
+  color: #A30000;
   font-size: 4.5em;
   margin-left: 10vw;
   margin-bottom: 4vh;
@@ -131,7 +131,7 @@ html {
   margin-left: 10vw;
 }
 #home-page > main > section:first-of-type section h2 span {
-  color: red;
+  color: #A30000;
 }
 #home-page > main > section:first-of-type > figure {
   background-color: #1c2f42;
@@ -306,13 +306,13 @@ html {
   width: 7vw;
   height: 7vh;
 }
-#home-page > footer h7 {
+#home-page > footer p {
   font-size: 1em;
   color: white;
   justify-self: center;
   align-self: center;
 }
-#home-page > footer h7 span {
+#home-page > footer p span {
   text-decoration: underline;
   text-underline-offset: 0.5rem;
 }
@@ -632,13 +632,13 @@ html {
   width: 7vw;
   height: 7vh;
 }
-#critiques-page > footer h7 {
+#critiques-page > footer p {
   font-size: 1em;
   color: white;
   justify-self: center;
   align-self: center;
 }
-#critiques-page > footer h7 span {
+#critiques-page > footer p span {
   text-decoration: underline;
   text-underline-offset: 0.5rem;
 }
@@ -698,7 +698,7 @@ html {
 }
 #equipe-page > main > section:first-of-type {
   width: 100vw;
-  height: 100vh;
+  height: 85vh;
 }
 #equipe-page > main > section:first-of-type > header {
   width: 100vw;
@@ -862,13 +862,13 @@ html {
   width: 7vw;
   height: 7vh;
 }
-#equipe-page > footer h7 {
+#equipe-page > footer p {
   font-size: 1em;
   color: white;
   justify-self: center;
   align-self: center;
 }
-#equipe-page > footer h7 span {
+#equipe-page > footer p span {
   text-decoration: underline;
   text-underline-offset: 0.5rem;
 }

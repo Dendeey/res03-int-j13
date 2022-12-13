@@ -97,7 +97,7 @@ html
                 
                 h1
                 {
-                    color: red;
+                    color: #A30000;
                     font-size: 4.5em;
                     margin-left: 10vw;
                     margin-bottom: 4vh;
@@ -112,7 +112,7 @@ html
                     
                     span
                     {
-                        color: red;
+                        color: #A30000;
                     }
                 }
             }
@@ -387,7 +387,7 @@ html
             }
         }
         
-        h7
+        p
         {
             font-size: 1em;
             color: white;
@@ -903,7 +903,7 @@ html
             }
         }
         
-        h7
+        p
         {
             font-size: 1em;
             color: white;
@@ -999,7 +999,7 @@ html
         & > section:first-of-type
         {
             width: 100vw;
-            height: 100vh;
+            height: 85vh;
             
             
             & > header
@@ -1030,6 +1030,7 @@ html
                 margin-right: 15vw;
                 margin-left: 15vw;
                 margin-top: 7vh;
+                
                
                 article:first-of-type
                 {
@@ -1246,7 +1247,7 @@ html
             }
         }
         
-        h7
+        p
         {
             font-size: 1em;
             color: white;
